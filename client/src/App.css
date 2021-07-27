@@ -1,0 +1,41 @@
+@keyframes App-logo-spin {
+	 from {
+		 transform: rotate(0deg);
+	}
+	 to {
+		 transform: rotate(360deg);
+	}
+}
+ html, body, #root, .App {
+	 height: 100%;
+	 width: 100%;
+	 background-color: #262833 !important;
+	 color: #36c7d0 !important;
+}
+ .form-control {
+	 background-color: #ffc68a !important;
+	 border-color: #262833 !important;
+}
+ .form-control:focus {
+	 border-color: #262833 !important;
+	 box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset, 0px 0px 3px 3px rgba(255, 198, 138, 0.8) !important;
+}
+ .form-control::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	 color: #3c3f53 !important;
+	 opacity: 1 !important;
+	/* Firefox */
+}
+ .card {
+	 background-color: #3c3f53 !important;
+}
+ .card-header {
+	 border-bottom: 1px solid rgba(54, 199, 208, 1) !important;
+}
+ .my-border-top {
+	 border-top: 1px solid rgba(54, 199, 208, 1) !important;
+}
+
+.btn {
+	margin-top: 10px !important;
+}
